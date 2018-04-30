@@ -1,4 +1,4 @@
-# eduDjango
+# A forked eduDjango project
 
 ## 一、项目介绍
 
@@ -38,7 +38,7 @@
 
 ![](http://ww1.sinaimg.cn/mw690/005EFdvdgy1fcxyqbor6uj311m0hnwgo)
 
-## 三、项目部署
+##* 三、项目部署(已失效)
 
 ### 3.1 部署在新浪 SAE 上
 
@@ -72,5 +72,3 @@ from mxonline import wsgi
 application = sae.create_wsgi_app(wsgi.application)
 ```
 接着按照新浪 SAE 官方文档，建好仓库后，`push` 到相应仓库即可。
-
-如有问题，欢迎留言。
